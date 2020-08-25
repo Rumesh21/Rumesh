@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: #f2f3f4;
+  font-family: tahoma;
+
+}
+
+#header {
+  padding-top: 150px;
+}
+
+#header h1{
+  color: #337cff;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+#fb {
+  margin-left: 400px;
+  max-width: 1000px;
+  display: inline-block;
+  line-height: 30px;
+}
+
+#text {
+  font-size: 30px;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 100px;
+}
+
+.column a {
+  text-decoration: none;
+  color: #3d89e6;
+}
+
+.column p a {
+  color: black;
+  font-weight: bold;
+}
+
+input {
+  height: 50px;
+  width: 380px;
+  border-radius: 10px;
+  border: 0.5px solid #d0d3d4;
+}
+
+input:hover {
+  cursor: auto;
+}
+
+::placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+  color: #979a9a;
+}
+
+#log {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+#login {
+  background-color: #337cff;
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+#new-acc {
+  background-color: #35BD57;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+#celebrity {
+  font-size: 15px;
+  text-align: center;
+}
+
+#footer {
+  clear: both;
+  background-color: white;
+  margin-top: 200px;
+  bottom: 0;
+  height: 200px;
+  padding: 10px 200px auto 200px;
+
+}
+
+#footer a {
+  margin-left: 10px;
+  padding: 10px 200px auto 200px;
+
+  text-decoration: none;
+  color: #7b7d7d;
+}
